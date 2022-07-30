@@ -1,0 +1,333 @@
+<!doctype html>
+<html lang="de">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Studio for Spacial Design – Statamic</title>
+
+    <meta name="description" content="Studio for Spacial Design – Statamic">
+
+    <meta property="og:title" content="Studio for Spacial Design – Statamic">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://snø.ch/projekte/zmik-studio-for-spacial-design">
+    <meta property="og:image" content="">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=qAMav9ekaJ">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=qAMav9ekaJ">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?v=qAMav9ekaJ">
+    <link rel="manifest" href="/site.webmanifest?v=qAMav9ekaJ">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg?v=qAMav9ekaJ" color="#000000">
+    <link rel="shortcut icon" href="/favicon.ico?v=qAMav9ekaJ">
+
+    <meta name="msapplication-TileColor" content="#000000">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="/css/site.css?id=055392dc136fbbe5a2cb">
+
+    <script defer src="https://unpkg.com/alpinejs@3"></script>
+    <script defer data-domain="xn--sn-mka.ch" src="/js/script.js"></script>
+</head>
+
+<body x-data="{ open: false }" :class="{ 'overflow-hidden': open }">
+    <header>
+        <a class="-ml-1 md:-ml-2" href="/" title="Statamic">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 114.69385 39.68504" class="logo" alt="Statamic">
+                <path
+                    d="M7.46094,30.19723l5.27978-5.58008c1.37989,1.62012,3.35987,3.96,7.07959,3.96,1.85987,0,3-1.02051,3-2.16016,0-2.04-3.77978-3.05957-8.03955-4.62011-3.48-1.19922-6.41992-3.89893-6.41992-8.459,0-4.31982,4.43994-9.23974,13.19971-9.23974,6.89941,0,10.25927,2.16015,12.47949,4.7998L28.76025,14.478a6.78618,6.78618,0,0,0-5.75976-3.54c-2.04,0-3.29981.8999-3.29981,2.04,0,2.15967,2.87989,2.87988,7.25928,4.31982C30.73975,18.55758,34.52,20.4775,34.52,26.11715c0,4.7998-4.62012,9.47949-13.61963,9.47949C15.20068,35.59664,10.2207,33.61715,7.46094,30.19723Z"
+                    style="fill:#1e293b;" />
+                <path
+                    d="M49.41162,8.53805l-.6001,4.5h.54c1.5-5.75977,5.3999-9.23975,10.61963-9.23975,6.05957,0,9.05957,3.8999,9.05957,11.33936V34.93648H57.87061V18.31783c0-4.68017-1.19922-5.64013-3.11915-5.64013-2.52,0-4.62011,1.56005-4.98,7.5V34.93648H38.55176V4.75826H49.41162Z"
+                    style="fill:#1e293b;" />
+                <path
+                    d="M80.41357,33.67672l-3.71972,4.55957L72.314,34.7568l4.02051-4.67969c-1.7998-2.58008-2.70019-6-2.70019-10.13965,0-9.47949,5.70019-16.13916,16.55957-16.13916a18.55721,18.55721,0,0,1,9.05957,2.09961l3.66015-4.37939L107.29248,4.998l-3.959,4.56006a16.84668,16.84668,0,0,1,2.81933,9.95947c0,9.47949-5.63965,16.13867-16.3789,16.13867A20.242,20.242,0,0,1,80.41357,33.67672ZM85.3335,23.23727l8.33984-10.6792c-.78027-1.32032-1.91992-1.68018-3.66016-1.68018-3.2998,0-4.7998,2.52-4.7998,8.63965C85.21338,20.957,85.27393,22.21676,85.3335,23.23727Zm9.36035-3.66016c0-1.2002-.06055-2.21924-.12012-3.11963L86.29346,26.89742c.7207,1.25977,1.86035,1.67969,3.48047,1.67969C93.07373,28.57711,94.69385,25.87691,94.69385,19.57711Z"
+                    style="fill:#1e293b;" />
+            </svg>
+        </a>
+        <nav class="hidden sm:block">
+            <ul>
+                                <li>
+                    <a class="" href="/angebot">Angebot</a>
+                </li>
+                                <li>
+                    <a class=" active " href="/projekte">Projekte</a>
+                </li>
+                                <li>
+                    <a class="" href="/ueber-mich">Über mich</a>
+                </li>
+                                <li>
+                    <a class="" href="/kontakt">Kontakt</a>
+                </li>
+                
+            </ul>
+        </nav>
+        <button class="inline-flex sm:hidden" @click="open = ! open">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor" x-show="!open">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor" x-show="open" x-cloak>
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+        </button>
+        <nav class="absolute bottom-0 left-0 right-0 z-50 p-5 bg-white overlay" x-transition x-show="open" x-cloak
+            style="max-height: calc(100% - 76px);">
+            <ul class="flex flex-col space-y-4">
+                                <li>
+                    <a class="text-2xl " href="/angebot">Angebot</a>
+                </li>
+                                <li>
+                    <a class="text-2xl  active " href="/projekte">Projekte</a>
+                </li>
+                                <li>
+                    <a class="text-2xl " href="/ueber-mich">Über mich</a>
+                </li>
+                                <li>
+                    <a class="text-2xl " href="/kontakt">Kontakt</a>
+                </li>
+                
+            </ul>
+        </nav>
+    </header>
+    <main x-show="!open">
+        <style>
+    h1.gradient {
+        background-image: linear-gradient( -158deg, #374254 0%, #90A0B9 100%);
+    }
+
+        .link::before {
+        background-color: #374254;
+    }
+    
+</style>
+<h1 class="gradient">Studio for Spacial Design</h1>
+
+<div class="separator">
+    <picture>
+        <source srcset="/img/containers/assets/images/ZMIK/teaser/main.jpg/d0920a234a8305795c725cb39d8a22fe.webp" type="image/webp">
+        <img src="/img/containers/assets/images/ZMIK/teaser/main.jpg/08a84da6996042ae136ae781faab9dfe.jpg" alt="Studio for Spacial Design" />
+    </picture>
+        <p class="mt-2 text-sm text-right">Bild: <a class="text-sm" rel="noopener" target="_blank"
+            href="https://digitalemassarbeit.ch">Digitale Massarbeit</a></p>
+    </div>
+
+<div class="project-client">
+    <div class="project-client__title">
+                    <h3 class="mb-4">ZMIK</h3>
+        
+    </div>
+</div>
+
+<div class="project-meta separator">
+    <div class="project-meta__tags">
+        <ul>
+                        <li>Backend</li>
+                        <li>Frontend</li>
+            
+        </ul>
+    </div>
+    <div class="project-meta__year">
+        <p class="font-medium text-gray-800">2010</p>
+    </div>
+    <div class="project-meta__description">
+        <p>Seit 2006 realisiert ZMIK Projekte für kulturelle Institutionen und private Unternehmen. ZMIK hat sich formiert, um eigenständige, präzise und einzigartige räumliche Umgebungen zu schaffen. Als Studio für räumliches Design entwirft es Räume und konzipiert räumliche Strategien und Handlungen.</p>
+                <p class="mt-2">
+            <a class="link" href="https://www.zmik.ch" rel="noopener" target="_blank">Zur Website</a>
+        </p>
+            </div>
+</div>
+
+<div class="row">
+            <div class="mb-8 col-12 col-md-10 offset-md-1 md:mb-16">
+    <picture>
+        <source data-srcset="/img/containers/assets/images/ZMIK/project/home-1.jpg/cd0ef51613d9e9a751fca4ab22e4787e.webp" type="image/webp">
+        <img class="img-border lazyload" data-src="/img/containers/assets/images/ZMIK/project/home-1.jpg/dc1f2fdb6c80c13779fcfbff08071b0f.jpg" alt="" />
+    </picture>
+</div>
+            <div class="mb-8 col-12 col-md-10 offset-md-1 md:mb-16">
+    <picture>
+        <source data-srcset="/img/containers/assets/images/ZMIK/project/home-2.jpg/19cac4bed263da15051f9b7a1d55f7a8.webp" type="image/webp">
+        <img class="img-border lazyload" data-src="/img/containers/assets/images/ZMIK/project/home-2.jpg/33849dd3ad1858dad9426c9f4e01e810.jpg" alt="" />
+    </picture>
+</div>
+    
+</div>
+
+<div class="project-nav">
+    <div class="project-nav__prev">
+        
+                            <a class="project-nav__prev-link" href="/projekte/raum-und-meier-raumgestaltungen">&larr; vorheriges Projekt</a>
+                <a class="project-nav__prev-link project-nav__prev-link--mobile" href="/projekte/raum-und-meier-raumgestaltungen">&larr; zurück</a>
+            
+
+        
+    </div>
+    <div class="project-nav__index">
+        <a class="project-nav__index-link" href="/projekte">Alle Projekte</a>
+    </div>
+    <div class="project-nav__next">
+        
+            
+
+        
+    </div>
+
+</div>
+
+<div class="box">
+    <h3>Interessiert an einer Zusammenarbeit? <a class="link link--large md:ml-4" href="/kontakt">Kontakt aufnehmen</a>
+    </h3>
+</div>
+    </main>
+    <footer x-show="!open">
+        <div class="container flex flex-col-reverse justify-between mx-auto md:items-end md:flex-row">
+            <div class="flex flex-row-reverse items-end justify-between mt-8 md:items-start md:flex-col md:mt-0">
+                <a class="-ml-1 md:-ml-2 " href="/" title="Statamic">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 114.69385 39.68504" class="logo"
+                        alt="Statamic">
+                        <path
+                            d="M7.46094,30.19723l5.27978-5.58008c1.37989,1.62012,3.35987,3.96,7.07959,3.96,1.85987,0,3-1.02051,3-2.16016,0-2.04-3.77978-3.05957-8.03955-4.62011-3.48-1.19922-6.41992-3.89893-6.41992-8.459,0-4.31982,4.43994-9.23974,13.19971-9.23974,6.89941,0,10.25927,2.16015,12.47949,4.7998L28.76025,14.478a6.78618,6.78618,0,0,0-5.75976-3.54c-2.04,0-3.29981.8999-3.29981,2.04,0,2.15967,2.87989,2.87988,7.25928,4.31982C30.73975,18.55758,34.52,20.4775,34.52,26.11715c0,4.7998-4.62012,9.47949-13.61963,9.47949C15.20068,35.59664,10.2207,33.61715,7.46094,30.19723Z"
+                            style="fill:#fff;" />
+                        <path
+                            d="M49.41162,8.53805l-.6001,4.5h.54c1.5-5.75977,5.3999-9.23975,10.61963-9.23975,6.05957,0,9.05957,3.8999,9.05957,11.33936V34.93648H57.87061V18.31783c0-4.68017-1.19922-5.64013-3.11915-5.64013-2.52,0-4.62011,1.56005-4.98,7.5V34.93648H38.55176V4.75826H49.41162Z"
+                            style="fill:#fff;" />
+                        <path
+                            d="M80.41357,33.67672l-3.71972,4.55957L72.314,34.7568l4.02051-4.67969c-1.7998-2.58008-2.70019-6-2.70019-10.13965,0-9.47949,5.70019-16.13916,16.55957-16.13916a18.55721,18.55721,0,0,1,9.05957,2.09961l3.66015-4.37939L107.29248,4.998l-3.959,4.56006a16.84668,16.84668,0,0,1,2.81933,9.95947c0,9.47949-5.63965,16.13867-16.3789,16.13867A20.242,20.242,0,0,1,80.41357,33.67672ZM85.3335,23.23727l8.33984-10.6792c-.78027-1.32032-1.91992-1.68018-3.66016-1.68018-3.2998,0-4.7998,2.52-4.7998,8.63965C85.21338,20.957,85.27393,22.21676,85.3335,23.23727Zm9.36035-3.66016c0-1.2002-.06055-2.21924-.12012-3.11963L86.29346,26.89742c.7207,1.25977,1.86035,1.67969,3.48047,1.67969C93.07373,28.57711,94.69385,25.87691,94.69385,19.57711Z"
+                            style="fill:#fff;" />
+                    </svg>
+                </a>
+                <nav class="hidden md:block">
+                    <ul class="flex space-x-4 md:mt-8">
+    <li>
+        <a href="https://www.instagram.com/snoe_labs/" target="_blank" class="text-gray-400">
+            <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram" class="w-6 h-6" role="img"
+                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                <path fill="currentColor"
+                    d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z">
+                </path>
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a href="https://twitter.com/snoe_labs/" target="_blank" class="text-gray-400">
+            <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter" class="w-6 h-6" role="img"
+                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                <path fill="currentColor"
+                    d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z">
+                </path>
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a href="https://github.com/snoe-labs" target="_blank" class="text-gray-400">
+            <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="github" class="w-6 h-6" role="img"
+                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                <path fill="currentColor"
+                    d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z">
+                </path>
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a href="https://www.linkedin.com/company/sn%C3%B8" target="_blank" class="text-gray-400">
+            <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin" class="w-6 h-6" role="img"
+                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                <path fill="currentColor"
+                    d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z">
+                </path>
+            </svg>
+        </a>
+    </li>
+</ul>
+                </nav>
+                <p class="text-lg text-gray-200 md:mt-8">© <span class="text-gray-200"
+                        x-text="new Date().getFullYear()">2021</span> snø <span class="ml-3 text-gray-400">Zürich</span>
+                </p>
+            </div>
+            <nav class="mt-8 md:hidden">
+                <ul class="flex space-x-4 md:mt-8">
+    <li>
+        <a href="https://www.instagram.com/snoe_labs/" target="_blank" class="text-gray-400">
+            <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram" class="w-6 h-6" role="img"
+                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                <path fill="currentColor"
+                    d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z">
+                </path>
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a href="https://twitter.com/snoe_labs/" target="_blank" class="text-gray-400">
+            <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter" class="w-6 h-6" role="img"
+                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                <path fill="currentColor"
+                    d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z">
+                </path>
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a href="https://github.com/snoe-labs" target="_blank" class="text-gray-400">
+            <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="github" class="w-6 h-6" role="img"
+                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                <path fill="currentColor"
+                    d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z">
+                </path>
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a href="https://www.linkedin.com/company/sn%C3%B8" target="_blank" class="text-gray-400">
+            <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin" class="w-6 h-6" role="img"
+                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                <path fill="currentColor"
+                    d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z">
+                </path>
+            </svg>
+        </a>
+    </li>
+</ul>
+            </nav>
+            <div class="flex flex-col">
+                <div>
+                    <h4 class="mb-2 font-medium tracking-wider text-gray-200 uppercase font-display">Kontakt</h4>
+                    <p>
+                        <a class="text-lg text-gray-400" href="mailto:hei@snø.ch">hei@snø.ch</a>
+                    </p>
+                    <p class="mt-2 text-gray-400">+41 79 508 10 42 </p>
+                </div>
+                <div>
+                    <h4 class="mt-8 mb-2 font-medium tracking-wider text-gray-200 uppercase font-display">Entdecken</h4>
+                    <nav>
+                        <ul class="flex flex-col space-x-0 md:flex-row md:space-x-5">
+                                                        <li>
+                                <a class="text-lg text-gray-400" href="/angebot">Angebot</a>
+                            </li>
+                                                        <li>
+                                <a class="text-lg text-gray-400" href="/projekte">Projekte</a>
+                            </li>
+                                                        <li>
+                                <a class="text-lg text-gray-400" href="/ueber-mich">Über mich</a>
+                            </li>
+                                                        <li>
+                                <a class="text-lg text-gray-400" href="/impressum">Impressum</a>
+                            </li>
+                                                        <li>
+                                <a class="text-lg text-gray-400" href="/datenschutz">Datenschutz</a>
+                            </li>
+                            
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+        </div>
+
+    </footer>
+    <script src="/js/site.js?id=74f943d7515d6ed2b7b0"></script>
+</body>
+
+</html>
