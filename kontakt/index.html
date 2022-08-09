@@ -93,56 +93,41 @@
         </nav>
     </header>
     <main x-show="!open">
-        <h1>Kontakt</h1>
+            <hgroup class="separator">
+    <h1>Kontakt</h1>
 
-<div class="row">
-    <div class="col-12 col-lg-5">
-        <div class="box">
-    <h3 class="box__title">Nehmen Sie mit mir Kontakt auf</h3>
-    <p class="box__text">Sie erreichen mich am besten direkt über einen der unten stehenden Kanäle.</p>
-    <dl class="box__list">
-        <dt class="sr-only">Postadresse</dt>
-        <dd class="flex mb-6 box__definition">
-            <svg class="box__definition-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                stroke="currentColor" aria-hidden="true">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                    d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                    d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-            </svg>
-            <div class="box__definition-text">
-                <p class="box__definition-title">snø</p>
-                <p>Gregory Plüss</p>
-                <p>Herzogenmühlestrasse 134</p>
-                <p>8051 Zürich</p>
-            </div>
-        </dd>
-        <dt class="sr-only">Telefon</dt>
-        <dd class="mb-3 box__definition">
-            <svg class="box__definition-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                stroke="currentColor" aria-hidden="true">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                    d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-            </svg>
-            <span class="box__definition-text">
-                +41 79 508 10 42
-            </span>
-        </dd>
-        <dt class="sr-only">E-Mail</dt>
-        <dd class="box__definition">
-            <svg class="box__definition-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                stroke="currentColor" aria-hidden="true">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                    d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-            </svg>
-            <span class="box__definition-text">
-                <a class="link" href="mailto:hei@snø.ch">hei@snø.ch</a>
-            </span>
-        </dd>
-    </dl>
+    <h2 class="lg:mr-48">Ich freue mich, von Ihnen zu hören 👋</h2>
+</hgroup>
+    <div class="grid w-full grid-cols-12 gap-5 separator">
+
+    
+        <div class="col-span-12 text-2xl font-semibold md:col-span-3 text-neutral-600 lg:text-3xl">
+            <h3 style="hyphens: auto;">Postadresse</h3>
+        </div>
+        <div class="col-span-12 prose md:col-span-9" style="hyphens: auto;">
+            <p><strong>snø</strong><br>Gregory Plüss<br>Herzogenmühlestrasse 134<br>8051 Zürich</p>
+        </div>
+
+    
+        <div class="col-span-12 text-2xl font-semibold md:col-span-3 text-neutral-600 lg:text-3xl">
+            <h3 style="hyphens: auto;">E-Mail</h3>
+        </div>
+        <div class="col-span-12 prose md:col-span-9" style="hyphens: auto;">
+            <p><a href="mailto:hei@snø.ch">hei@snø.ch</a></p>
+        </div>
+
+    
+        <div class="col-span-12 text-2xl font-semibold md:col-span-3 text-neutral-600 lg:text-3xl">
+            <h3 style="hyphens: auto;">Telefon</h3>
+        </div>
+        <div class="col-span-12 prose md:col-span-9" style="hyphens: auto;">
+            <p>+41 76 408 10 42</p>
+        </div>
+
+    
+
 </div>
-    </div>
-</div>
+
     </main>
     <footer x-show="!open">
         <div class="container flex flex-col-reverse justify-between mx-auto md:items-end md:flex-row">
@@ -206,7 +191,7 @@
 </ul>
                 </nav>
                 <p class="text-lg text-gray-200 md:mt-8">© <span class="text-gray-200"
-                        x-text="new Date().getFullYear()">2021</span> snø <span class="ml-3 text-gray-400">Zürich</span>
+                        x-text="new Date().getFullYear()">2022</span> snø <span class="ml-3 text-gray-400">Zürich</span>
                 </p>
             </div>
             <nav class="mt-8 md:hidden">
@@ -259,7 +244,7 @@
                     <p>
                         <a class="text-lg text-gray-400" href="mailto:hei@snø.ch">hei@snø.ch</a>
                     </p>
-                    <p class="mt-2 text-gray-400">+41 79 508 10 42 </p>
+                    <p class="mt-2 text-gray-400">+41 76 408 10 42 </p>
                 </div>
                 <div>
                     <h4 class="mt-8 mb-2 font-medium tracking-wider text-gray-200 uppercase font-display">Entdecken</h4>
