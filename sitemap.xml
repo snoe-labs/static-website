@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+    <url>
+        <loc>https://snø.ch</loc>
+        <lastmod>2022-05-27T19:33:50+00:00</lastmod>
+                <priority> 1
+                    </priority>
+    </url>
+    <url>
+        <loc>https://snø.ch/datenschutz</loc>
+        <lastmod>2021-11-30T16:35:27+00:00</lastmod>
+                <priority> 0.8         </priority>
+    </url>
+    <url>
+        <loc>https://snø.ch/kontakt-danke</loc>
+        <lastmod>2021-11-23T09:38:11+00:00</lastmod>
+                <priority> 0.8         </priority>
+    </url>
+    <url>
+        <loc>https://snø.ch/projekte</loc>
+        <lastmod>2021-11-23T09:36:34+00:00</lastmod>
+                <priority> 0.8         </priority>
+    </url>
+    <url>
+        <loc>https://snø.ch/angebot</loc>
+        <lastmod>2021-12-21T13:47:11+00:00</lastmod>
+                <priority> 0.8         </priority>
+    </url>
+    <url>
+        <loc>https://snø.ch/impressum</loc>
+        <lastmod>2022-01-04T19:55:45+00:00</lastmod>
+                <priority> 0.8         </priority>
+    </url>
+    <url>
+        <loc>https://snø.ch/ueber-mich</loc>
+        <lastmod>2022-01-04T19:35:41+00:00</lastmod>
+                <priority> 0.8         </priority>
+    </url>
+    <url>
+        <loc>https://snø.ch/kontakt</loc>
+        <lastmod>2022-08-09T07:40:09+00:00</lastmod>
+                <priority> 0.8         </priority>
+    </url>
+    <url>
+        <loc>https://snø.ch/projekte/raum-und-meier-raumgestaltungen</loc>
+        <lastmod>2021-01-21T20:02:55+00:00</lastmod>
+                <priority> 0.8         </priority>
+    </url>
+    <url>
+        <loc>https://snø.ch/projekte/sista-jewelry-online-shop</loc>
+        <lastmod>2021-02-08T14:55:20+00:00</lastmod>
+                <priority> 0.8         </priority>
+    </url>
+    <url>
+        <loc>https://snø.ch/projekte/zmik-studio-for-spacial-design</loc>
+        <lastmod>2021-02-08T14:32:49+00:00</lastmod>
+                <priority> 0.8         </priority>
+    </url>
+    <url>
+        <loc>https://snø.ch/projekte/buchhaltung-fuer-einzelfirmen-und-selbstaendige-leicht-gemacht</loc>
+        <lastmod>2022-03-09T15:40:25+00:00</lastmod>
+                <priority> 0.8         </priority>
+    </url>
+    <url>
+        <loc>https://snø.ch/projekte/mutig-neues-anpacken-und-veraenderungen-bewirken</loc>
+        <lastmod>2022-05-27T19:51:06+00:00</lastmod>
+                <priority> 0.8         </priority>
+    </url>
+    <url>
+        <loc>https://snø.ch/projekte/schlossgut-bachtobel</loc>
+        <lastmod>2022-05-27T19:49:55+00:00</lastmod>
+                <priority> 0.8         </priority>
+    </url>
+
+</urlset>
